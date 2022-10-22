@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+
+
+<body>
+
+    <div class="container">
+ <p> <center><u>Javascript fundamentals</u></center></p>
+ </div>
+  <div class="container">
+    <p id="first" class="p1"> first paragraph</p>
+    <p name = "name1" id="second" class="p1">Second paragraph</p>
+    <p class="p3">Third paragraph</p>
+    </div>
+    <div class="container">
+        <h3>showing validation errors</h3>
+        <form action="/somepath" method="post" id="user-form">
+          <input name="Name"  placeholder="UserName"/> 
+         <span id="user-error"></span> <br/>
+          <input name="Password" placeholder="Enter password"/>
+         <span id="password-error"></span> <br/>
+         <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h3>Accessing Forms fields</h3>
+        <form action="/somepath" method="post" id="my-form">
+            <label for="fname">First name:</label> 
+            <input type="text" id="fname" name="fname"><br/>
+            <label for="lname">Last name: </label> 
+            <input type="text" id="lname" name="lname"><br/>
+            <button type="submit">Submit</button>
+            </form>
+    </div>
+ <script src="./fundamentals.js"> </script>
+
+</body>
+
+</html>
